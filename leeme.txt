@@ -1,0 +1,13 @@
+// Comandos
+
+/apodo nombre 			// Nombra un apodo en el servidor
+/salas 				// Muestra las salas disponibles en el servidor
+/unir nombre_sala 		// Se une a un sala si existe en caso contrario se creara la sala
+/enviar nombre_archivo.txt 	// Se envia el archivo a todos los que esten en la sala y ejecuten el comando /recibir
+/recibir 			// Se coloca en modo espera para recibir un archivo.txt
+/salir 				// Se desconecta del servir
+
+Notas:
+ - Para poder recibir debe pertenecer a una sala
+ - Para el servidor y cliente usar go mod init/tidy y ejecutar
+ - Para descargar de github https://github.com/fito-o/go.git branch cliente/servidor
